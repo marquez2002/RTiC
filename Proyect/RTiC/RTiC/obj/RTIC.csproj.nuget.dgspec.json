@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj": {
+    "C:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj",
         "projectName": "RTIC",
-        "projectPath": "c:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\RTIC.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\C#\\RTIC\\RTIC\\Proyect\\RTiC\\RTiC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
