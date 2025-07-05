@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DaySchedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Exercises>
+    <string>🏃 3 x 600 m + 45 seg. descanso</string>
+    <string>🏃 4 km caminata de recuperación</string>
+    <string>🛌 Descanso</string>
+    <string>🏃 4 km trote continuo</string>
+    <string>🛌 Descanso</string>
+    <string>🏆 7 km en circuito urbano con subidas</string>
+    <string>🏃 6 x 200 m + 30 seg. descanso</string>
+  </Exercises>
+  <Time>
+    <string>00:24:00</string>
+    <string>00:36:00</string>
+    <string>//</string>
+    <string>00:26:00</string>
+    <string>//</string>
+    <string>00:50:00</string>
+    <string>00:22:30</string>
+  </Time>
+  <TimeUser>
+    <string>-</string>
+    <string>-</string>
+    <string>-</string>
+    <string>-</string>
+    <string>-</string>
+    <string>-</string>
+    <string>-</string>
+  </TimeUser>
+</DaySchedule>

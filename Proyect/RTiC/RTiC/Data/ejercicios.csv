@@ -1,0 +1,123 @@
+Nivel,Descripcion,Duracion
+Inicial,🏃 1 km caminata de recuperacion,00:10:00
+Inicial,🏃 2 km caminata de recuperacion,00:20:00
+Inicial,🏃 3 km caminata de recuperacion,00:30:00
+Inicial,🏃 4 km caminata de recuperacion,00:40:00
+Inicial,🏃 5 km caminata de recuperacion,00:50:00
+Inicial,🏃 6 km caminata de recuperacion,01:00:00
+Inicial,🏃 7 km caminata de recuperacion,01:10:00
+Inicial,🏃 2 km trote suave,00:16:00
+Inicial,🏃 2 km trote continuo,00:14:00
+Inicial,🏃 2 km trote suave + sprint final,00:12:00
+Inicial,🏃 3 km trote suave,00:24:00
+Inicial,🏃 3 km trote continuo,00:21:00
+Inicial,🏃 3 km trote suave + sprint final,00:19:00
+Inicial,🏃 4 km trote suave,00:32:00
+Inicial,🏃 4 km trote continuo,00:28:00
+Inicial,🏃 4 km trote suave + sprint final,00:26:00
+Inicial,🏃 5 series de 200 m + 30 seg. descanso,00:24:30
+Inicial,🏃 6 series de 200 m + 30 seg. descanso,00:26:30
+Inicial,🏃 5 series de 300 m + 30 seg. descanso,00:25:30
+Inicial,🏃 4 series de 400 m + 30 seg. descanso,00:24:30
+Inicial,🏃 4 series de 500 m + 30 seg. descanso,00:25:30
+Inicial,🏃 3 km alternando ritmos (continuo/suave),00:22:30
+Inicial,🏃 4 km alternando ritmos (continuo/suave),00:30:00
+Inicial,🏃 5 km alternando ritmos (continuo/suave),00:38:30
+Aficionado,🏃 3 km caminata de recuperacion,00:27:00
+Aficionado,🏃 4 km caminata de recuperacion,00:36:00
+Aficionado,🏃 5 km caminata de recuperacion,00:45:00
+Aficionado,🏃 6 km caminata de recuperacion,00:55:00
+Aficionado,🏃 7 km caminata de recuperacion,01:05:00
+Aficionado,🏃 3 km trote suave,00:21:00
+Aficionado,🏃 3 km trote continuo,00:19:00
+Aficionado,🏃 3 km trote suave + sprint final,00:18:00
+Aficionado,🏃 4 km trote suave,00:28:00
+Aficionado,🏃 4 km trote continuo,00:28:00
+Aficionado,🏃 4 km trote suave + sprint final,00:26:00
+Aficionado,🏃 5 km trote suave,00:40:00
+Aficionado,🏃 5 km trote continuo,00:37:00
+Aficionado,🏃 5 km trote suave + sprint final,00:38:00
+Aficionado,🏃 6 km trote suave,00:40:00
+Aficionado,🏃 6 km trote continuo,00:37:00
+Aficionado,🏃 6 km trote suave + sprint final,00:35:00
+Aficionado,🏃 5 series de 200 m + 30 seg. descanso,00:20:00
+Aficionado,🏃 6 series de 200 m + 30 seg. descanso,00:22:30
+Aficionado,🏃 5 series de 300 m + 30 se g. descanso,00:23:30
+Aficionado,🏃 4 series de 400 m + 30 seg. descanso,00:22:30
+Aficionado,🏃 4 series de 500 m + 30 seg. descanso,00:23:30
+Aficionado,🏃 3 km alternando ritmos (continuo/suave),00:19:30
+Aficionado,🏃 4 km alternando ritmos (continuo/suave),00:24:00
+Aficionado,🏃 5 km alternando ritmos (continuo/suave),00:28:30
+Profesional,🏃 3 km caminata de recuperacion,00:24:00
+Profesional,🏃 4 km caminata de recuperacion,00:32:00
+Profesional,🏃 5 km caminata de recuperacion,00:40:00
+Profesional,🏃 6 km caminata de recuperacion,00:48:00
+Profesional,🏃 7 km caminata de recuperacion,00:56:00
+Profesional,🏃 3 km trote suave,00:18:00
+Profesional,🏃 3 km trote continuo,00:15:00
+Profesional,🏃 3 km trote suave + sprint final,00:16:30
+Profesional,🏃 4 km trote suave,00:24:00
+Profesional,🏃 4 km trote continuo,00:20:00
+Profesional,🏃 4 km trote suave + sprint final,00:21:30
+Profesional,🏃 5 km trote suave,00:30:00
+Profesional,🏃 5 km trote continuo,00:25:00
+Profesional,🏃 5 km trote suave + sprint final,00:25:30
+Profesional,🏃 5 km trote suave,00:40:00
+Profesional,🏃 5 km trote continuo,00:37:00
+Profesional,🏃 5 km trote suave + sprint final,00:35:00
+Profesional,🏃 5 series de 200 m + 30 seg. descanso,00:10:00
+Profesional,🏃 6 series de 200 m + 30 seg. descanso,00:12:00
+Profesional,🏃 5 series de 300 m + 30 se g. descanso,00:12:00
+Profesional,🏃 4 series de 400 m + 30 seg. descanso,00:10:30
+Profesional,🏃 4 series de 500 m + 30 seg. descanso,00:12:30
+Profesional,🏃 3 km alternando ritmos (continuo/suave),00:17:30
+Profesional,🏃 4 km alternando ritmos (continuo/suave),00:21:30
+Profesional,🏃 5 km alternando ritmos (continuo/suave),00:25:30
+Senior,🏃 3 km caminata de recuperación,00:21:00
+Senior,🏃 4 km caminata de recuperación,00:28:00
+Senior,🏃 5 km caminata de recuperación,00:35:00
+Senior,🏃 6 km caminata de recuperación,00:42:00
+Senior,🏃 7 km caminata de recuperación,00:49:00
+Senior,🏃 8 km caminata de recuperación,00:56:00
+Senior,🏃 9 km caminata de recuperación,01:03:00
+Senior,🏃 10 km caminata de recuperación,01:10:00
+Senior,🏃 3 km trote suave,00:16:30
+Senior,🏃 4 km trote suave,00:22:00
+Senior,🏃 5 km trote suave,00:27:30
+Senior,🏃 6 km trote suave,00:33:00
+Senior,🏃 7 km trote suave,00:38:30
+Senior,🏃 8 km trote suave,00:44:00
+Senior,🏃 9 km trote suave,00:49:30
+Senior,🏃 10 km trote suave,00:55:00
+Senior,🏃 3 km trote continuo,00:13:30
+Senior,🏃 4 km trote continuo,00:18:00
+Senior,🏃 5 km trote continuo,00:23:00
+Senior,🏃 6 km trote continuo,00:27:30
+Senior,🏃 7 km trote continuo,00:32:00
+Senior,🏃 8 km trote continuo,00:36:30
+Senior,🏃 9 km trote continuo,00:41:00
+Senior,🏃 10 km trote continuo,00:45:30
+Senior,🏃 3 km trote suave + sprint final,00:15:00
+Senior,🏃 4 km trote suave + sprint final,00:19:30
+Senior,🏃 5 km trote suave + sprint final,00:24:00
+Senior,🏃 6 km trote suave + sprint final,00:28:30
+Senior,🏃 7 km trote suave + sprint final,00:33:00
+Senior,🏃 8 km trote suave + sprint final,00:37:30
+Senior,🏃 9 km trote suave + sprint final,00:42:00
+Senior,🏃 10 km trote suave + sprint final,00:46:30
+Senior,🏃 5 series de 200 m + 30 seg. descanso,00:09:00
+Senior,🏃 6 series de 200 m + 30 seg. descanso,00:10:30
+Senior,🏃 5 series de 300 m + 30 seg. descanso,00:11:00
+Senior,🏃 4 series de 400 m + 30 seg. descanso,00:09:30
+Senior,🏃 4 series de 500 m + 30 seg. descanso,00:11:00
+Senior,🏃 4 series de 600 m + 45 seg. descanso,00:12:00
+Senior,🏃 3 series de 800 m + 1 min descanso,00:13:30
+Senior,🏃 3 series de 1000 m + 1 min descanso,00:15:00
+Senior,🏃 3 km alternando ritmos (continuo/suave),00:16:00
+Senior,🏃 4 km alternando ritmos (continuo/suave),00:20:00
+Senior,🏃 5 km alternando ritmos (continuo/suave),00:23:30
+Senior,🏃 6 km alternando ritmos (continuo/suave),00:27:30
+Senior,🏃 7 km alternando ritmos (continuo/suave),00:31:30
+Senior,🏃 8 km alternando ritmos (continuo/suave),00:35:30
+Senior,🏃 9 km alternando ritmos (continuo/suave),00:39:30
+Senior,🏃 10 km alternando ritmos (continuo/suave),00:43:30

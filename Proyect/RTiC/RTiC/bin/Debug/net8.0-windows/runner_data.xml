@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Runner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Gonzalo</Name>
+  <Level>Aficionado</Level>
+  <Age>22</Age>
+  <Height>172</Height>
+  <Weight>75</Weight>
+  <Date>2025-07-05T11:58:28.1466236+02:00</Date>
+  <Imc>25.351541373715524</Imc>
+  <FormattedDate>05-07-2025</FormattedDate>
+  <FormattedDate2>05-07</FormattedDate2>
+</Runner>

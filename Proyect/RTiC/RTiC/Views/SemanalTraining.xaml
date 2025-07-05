@@ -1,0 +1,205 @@
+﻿<UserControl x:Class="RTIC.Views.SemanalTraining"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RTIC.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- FILTROS DE DIA DE DESCANSO Y DE MAYOR DISPONIBILIDAD -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,20" HorizontalAlignment="Center" Grid.Row="0">
+
+            <StackPanel Margin="10,0">
+                <TextBlock Text="Primer Descanso" FontWeight="Bold"/>
+                <ComboBox ItemsSource="{Binding WeekDays}"
+                  SelectedItem="{Binding BreakDay1, Mode=TwoWay}"
+                  Width="150"/>
+            </StackPanel>
+
+            <StackPanel Margin="10,0">
+                <TextBlock Text="Segundo Descanso" FontWeight="Bold"/>
+                <ComboBox ItemsSource="{Binding WeekDays}"
+                  SelectedItem="{Binding BreakDay2, Mode=TwoWay}"
+                  Width="150"/>
+            </StackPanel>
+
+            <StackPanel Margin="10,0">
+                <TextBlock Text="Mayor disponibilidad" FontWeight="Bold"/>
+                <ComboBox ItemsSource="{Binding WeekDays}"
+                  SelectedItem="{Binding AvailableDay, Mode=TwoWay}"
+                  Width="150"/>
+            </StackPanel>
+
+            <!-- BOTON QUE PERMITE GENERAR OTRA SESION DE EJERCICIOS -->
+            <StackPanel Margin="10,0">
+                <Button Content="Actualizar Ejercicios" Command="{Binding GenerateWeeklyScheduleCommand}" Margin="0 15 0 0" FontSize="15"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,20" HorizontalAlignment="Center" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                    <ColumnDefinition Width="175"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- FILA 1 - DIAS -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Lunes" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Martes" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Miércoles" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Jueves" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Viernes" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="5" Text="Sábado" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="0" Grid.Column="6" Text="Domingo" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center" Margin="5"/>
+
+                <!-- FILA 2 - EJERCICIOS -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding ExercisesSchedule.Exercises[0]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ExercisesSchedule.Exercises[1]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding ExercisesSchedule.Exercises[2]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="3" Text="{Binding ExercisesSchedule.Exercises[3]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="4" Text="{Binding ExercisesSchedule.Exercises[4]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="5" Text="{Binding ExercisesSchedule.Exercises[5]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Grid.Column="6" Text="{Binding ExercisesSchedule.Exercises[6]}" FontSize="13" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" TextAlignment="Center"/>
+
+                <!-- FILA 3 - TIEMPO OBJETIVO -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="{Binding ExercisesSchedule.Time[0]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding ExercisesSchedule.Time[1]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding ExercisesSchedule.Time[2]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="3" Text="{Binding ExercisesSchedule.Time[3]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="4" Text="{Binding ExercisesSchedule.Time[4]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="5" Text="{Binding ExercisesSchedule.Time[5]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+                <TextBlock Grid.Row="2" Grid.Column="6" Text="{Binding ExercisesSchedule.Time[6]}" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="5"/>
+
+                <!-- FILA 4 - TIEMPO RECORD (SI LO HUBIESE) -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="{Binding BestTimeUsers[0]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding BestTimeUsers[1]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="2" Text="{Binding BestTimeUsers[2]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="3" Text="{Binding BestTimeUsers[3]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="4" Text="{Binding BestTimeUsers[4]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="5" Text="{Binding BestTimeUsers[5]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+                <TextBlock Grid.Row="3" Grid.Column="6" Text="{Binding BestTimeUsers[6]}" FontSize="12" Foreground="Magenta" HorizontalAlignment="Center" Margin="1.5"/>
+
+                <!-- FILA 5 - INTRODUCIR TIEMPO REALIZADO (SI NO HA PASADO EL DIA) -->
+                <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideMonday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[0], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser0Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideTuesday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[1], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser1Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideWednesday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[2], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser2Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideThursday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[3], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser3Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideFriday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[4], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser4Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="5" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideSaturday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[5], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser5Command}" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Grid.Column="6" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HideSunday}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBox Width="100" FontSize="13" Text="{Binding TimeUsers[6], StringFormat='{}{0:hh\\:mm\\:ss}', UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                    <Button Content="☑" Command="{Binding SaveTimeUser6Command}" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>
+
+

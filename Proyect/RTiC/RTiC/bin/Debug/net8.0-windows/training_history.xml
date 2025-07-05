@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TrainingUserHistory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainingHistories>
+    <TimeDefault>00:22:30</TimeDefault>
+    <TimeUser>00:23:25</TimeUser>
+    <Fecha>05-07-2025</Fecha>
+    <ExerciseDefault>🏃 3 km alternando ritmos (continuo/suave)</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:25:00</TimeDefault>
+    <TimeUser>00:24:25</TimeUser>
+    <Fecha>04-07-2025</Fecha>
+    <ExerciseDefault>🏃 Técnica de carrera + 2 km trote suave</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:22:30</TimeDefault>
+    <TimeUser>00:24:25</TimeUser>
+    <Fecha>03-07-2025</Fecha>
+    <ExerciseDefault>🏃 6 x 200 m + 30 seg. descanso</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:22:30</TimeDefault>
+    <TimeUser>00:24:25</TimeUser>
+    <Fecha>02-07-2025</Fecha>
+    <ExerciseDefault>🏃 6 x 200 m + 30 seg. descanso</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:22:30</TimeDefault>
+    <TimeUser>00:24:25</TimeUser>
+    <Fecha>01-07-2025</Fecha>
+    <ExerciseDefault>🏃 6 x 200 m + 30 seg. descanso</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:46:00</TimeDefault>
+    <TimeUser>00:45:25</TimeUser>
+    <Fecha>30-06-2025</Fecha>
+    <ExerciseDefault>🏃 7 km trote continuo</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:46:00</TimeDefault>
+    <TimeUser>00:49:25</TimeUser>
+    <Fecha>29-06-2025</Fecha>
+    <ExerciseDefault>🏃 7 km trote continuo</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:46:00</TimeDefault>
+    <TimeUser>00:44:25</TimeUser>
+    <Fecha>28-06-2025</Fecha>
+    <ExerciseDefault>🏃 7 km trote continuo</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:22:30</TimeDefault>
+    <TimeUser>00:24:25</TimeUser>
+    <Fecha>27-06-2025</Fecha>
+    <ExerciseDefault>🏃 6 x 200 m + 30 seg. descanso</ExerciseDefault>
+  </TrainingHistories>
+  <TrainingHistories>
+    <TimeDefault>00:50:00</TimeDefault>
+    <TimeUser>00:51:00</TimeUser>
+    <Fecha>07-07-2025</Fecha>
+    <ExerciseDefault>🏆 7 km en circuito urbano con subidas</ExerciseDefault>
+  </TrainingHistories>
+</TrainingUserHistory>

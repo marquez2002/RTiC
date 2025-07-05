@@ -1,0 +1,7 @@
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Views\HealthDataBar.baml
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\Views\HealthDataBar.g.cs
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\GM2540\OneDrive - Hitachi Energy\Escritorio\FICHEROS\Proyect\Proyect2\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
